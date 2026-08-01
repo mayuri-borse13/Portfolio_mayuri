@@ -1,17 +1,17 @@
 function Skills() {
-  const skills = [
-    "HTML5",
-    "CSS3",
-    "JavaScript",
-    "React",
-    "Python",
-    "Git",
-    "GitHub",
-    "SQL",
-    "Flask",
-    "Responsive Design",
-    "VS Code",
-    "Problem Solving",
+  const skillGroups = [
+    {
+      title: "Frontend",
+      skills: ["HTML5", "CSS3", "JavaScript", "React", "Responsive Design"],
+    },
+    {
+      title: "Backend",
+      skills: ["Python", "Flask", "SQL"],
+    },
+    {
+      title: "Workflow",
+      skills: ["Git", "GitHub", "VS Code", "Problem Solving"],
+    },
   ];
 
   return (
@@ -19,9 +19,14 @@ function Skills() {
       <h2 className="section-title">My Skills</h2>
 
       <div className="skills-container">
-        {skills.map((skill, index) => (
-          <div className="skill-card" key={index}>
-            {skill}
+        {skillGroups.map((group) => (
+          <div className="skill-card" key={group.title}>
+            <h3>{group.title}</h3>
+            <div className="skill-tags">
+              {group.skills.map((skill) => (
+                <span key={skill}>{skill}</span>
+              ))}
+            </div>
           </div>
         ))}
       </div>

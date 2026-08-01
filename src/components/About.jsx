@@ -13,22 +13,26 @@ function About() {
 
         <div className="about-info">
           <div className="info-card">
-            <h3>🎓 Education</h3>
+            <span className="card-number">01</span>
+            <h3>Education</h3>
             <p>B.Tech in Computer Science Engineering</p>
           </div>
 
           <div className="info-card">
-            <h3>💼 Experience</h3>
+            <span className="card-number">02</span>
+            <h3>Experience</h3>
             <p>3 Internships Completed</p>
           </div>
 
           <div className="info-card">
-            <h3>📍 Location</h3>
+            <span className="card-number">03</span>
+            <h3>Location</h3>
             <p>Nashik, Maharashtra</p>
           </div>
 
           <div className="info-card">
-            <h3>🎯 Goal</h3>
+            <span className="card-number">04</span>
+            <h3>Goal</h3>
             <p>Software Developer</p>
           </div>
         </div>

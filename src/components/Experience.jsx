@@ -8,7 +8,7 @@ function Experience() {
         <div className="experience-card">
           <h3>Web Development Intern</h3>
           <h4>Civora Nexus Pvt. Ltd.</h4>
-          <p>June 2025 – August 2025</p>
+          <p className="experience-date">June 2025 - August 2025</p>
 
           <ul>
             <li>Developed an E-Learning Portal for Civic Awareness.</li>
@@ -31,7 +31,7 @@ function Experience() {
         <div className="experience-card">
           <h3>Web Development Intern</h3>
           <h4>V3 Data Solution</h4>
-          <p>June 2023 – July 2023</p>
+          <p className="experience-date">June 2023 - July 2023</p>
 
           <ul>
             <li>Created responsive web pages.</li>

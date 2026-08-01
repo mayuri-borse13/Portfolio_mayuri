@@ -1,12 +1,16 @@
+import heroArt from "../assets/hero.png";
+
 function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-left">
         <p className="greeting">Hello, I'm</p>
 
-        <h1>Mayuri Borse</h1>
+        <h1>
+          Mayuri <span>Borse</span>
+        </h1>
 
-        <h2>Computer Science Engineer | Frontend Developer</h2>
+        <h2>Computer Science Engineer + Frontend Developer</h2>
 
         <p className="hero-description">
           I build responsive and user-friendly web applications using React,
@@ -26,11 +30,16 @@ function Hero() {
       </div>
 
       <div className="hero-right">
-        <img
-          src="https://via.placeholder.com/350"
-          alt="Mayuri Borse"
-          className="hero-image"
-        />
+        <div className="hero-card">
+          <div className="hero-image-frame">
+            <img
+              src={heroArt}
+              alt="Layered portfolio illustration"
+              className="hero-image"
+            />
+          </div>
+          <p className="speech-bubble">Clean UI. Friendly code.</p>
+        </div>
       </div>
     </section>
   );

@@ -11,7 +11,8 @@ function Contact() {
       <div className="contact-container">
 
         <div className="contact-card">
-          <h3>📧 Email</h3>
+          <span className="card-number">01</span>
+          <h3>Email</h3>
 
           <a href="mailto:mvborse1306@gmail.com">
             mvborse1306@gmail.com
@@ -19,7 +20,8 @@ function Contact() {
         </div>
 
         <div className="contact-card">
-          <h3>💼 LinkedIn</h3>
+          <span className="card-number">02</span>
+          <h3>LinkedIn</h3>
 
           <a
             href="https://www.linkedin.com/in/mayuri-borse-237034334"
@@ -31,7 +33,8 @@ function Contact() {
         </div>
 
         <div className="contact-card">
-          <h3>💻 GitHub</h3>
+          <span className="card-number">03</span>
+          <h3>GitHub</h3>
 
           <a
             href="https://github.com/mayuri-borse13"
@@ -43,7 +46,8 @@ function Contact() {
         </div>
 
         <div className="contact-card">
-          <h3>📍 Location</h3>
+          <span className="card-number">04</span>
+          <h3>Location</h3>
 
           <p>Nashik, Maharashtra, India</p>
         </div>
